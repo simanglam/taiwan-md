@@ -223,16 +223,18 @@ import CategoryGrid from '../components/CategoryGrid.astro';
 </Layout>
 
 <style>
-  /* ===== HERO SECTION ===== */
+  /* ===== HERO SECTION - 自然系大地色重設計 ===== */
   .hero {
     position: relative;
     text-align: center;
     padding: 8rem 0 6rem;
-    background: 
-      /* 深層底色 */
-      radial-gradient(ellipse 120% 80% at 50% 20%, #1a202c 0%, #0f172a 40%, #0a0f1a 100%),
-      /* 細微紋理 */
-      linear-gradient(180deg, rgba(34, 197, 94, 0.02) 0%, transparent 30%, rgba(59, 130, 246, 0.015) 70%, transparent 100%);
+    /* 自然風景漸層背景 */
+    background: linear-gradient(180deg, 
+      #2d5016 0%,     /* 深森林綠 */
+      #4a7c28 30%,    /* 森林綠 */ 
+      #6b9b3a 60%,    /* 草地綠 */
+      #87ceeb 100%    /* 天空藍 */
+    );
     color: white;
     margin: -2rem -1rem 0;
     margin-bottom: 4rem;
@@ -242,6 +244,7 @@ import CategoryGrid from '../components/CategoryGrid.astro';
     align-items: center;
   }
   
+  /* 移除星空動畫和科技感特效 */
   .hero::before {
     content: '';
     position: absolute;
@@ -249,21 +252,11 @@ import CategoryGrid from '../components/CategoryGrid.astro';
     left: 0;
     right: 0;
     bottom: 0;
+    /* 僅保留淡雅的自然紋理 */
     background: 
-      /* 光暈層 */
-      radial-gradient(circle at 30% 20%, rgba(34, 197, 94, 0.08) 0%, transparent 50%),
-      radial-gradient(circle at 70% 80%, rgba(59, 130, 246, 0.06) 0%, transparent 50%),
-      /* 星空效果 */
-      radial-gradient(2px 2px at 20px 30px, #ffffff, transparent),
-      radial-gradient(2px 2px at 40px 70px, rgba(34, 197, 94, 0.8), transparent),
-      radial-gradient(1px 1px at 90px 40px, rgba(59, 130, 246, 0.6), transparent),
-      radial-gradient(1px 1px at 130px 80px, #ffffff, transparent),
-      radial-gradient(2px 2px at 160px 30px, rgba(251, 191, 36, 0.7), transparent);
-    background-repeat: repeat;
-    background-size: 200px 100px, 200px 100px, 200px 100px, 200px 100px, 200px 100px, 200px 100px, 200px 100px;
+      radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.05) 0%, transparent 50%),
+      radial-gradient(circle at 70% 80%, rgba(107, 155, 58, 0.1) 0%, transparent 50%);
     z-index: 1;
-    opacity: 0.4;
-    animation: starsMove 20s linear infinite;
   }
   
   .hero-bg {
@@ -275,7 +268,7 @@ import CategoryGrid from '../components/CategoryGrid.astro';
     z-index: 1;
   }
   
-  /* 台灣山脈剪影 - 更層次感 */
+  /* 台灣山脈剪影 - 更自然的層次 */
   .taiwan-mountains {
     position: absolute;
     bottom: 0;
@@ -283,49 +276,30 @@ import CategoryGrid from '../components/CategoryGrid.astro';
     right: 0;
     height: 40%;
     background: 
-      /* 遠山（最淡） */
-      radial-gradient(ellipse 1000px 100px at 5% 100%, rgba(34, 197, 94, 0.04) 0%, transparent 80%),
-      radial-gradient(ellipse 800px 120px at 15% 100%, rgba(34, 197, 94, 0.06) 0%, transparent 75%),
-      /* 中山 */
-      radial-gradient(ellipse 700px 160px at 35% 100%, rgba(34, 197, 94, 0.08) 0%, transparent 70%),
-      radial-gradient(ellipse 600px 180px at 55% 100%, rgba(34, 197, 94, 0.1) 0%, transparent 65%),
-      /* 近山 */
-      radial-gradient(ellipse 500px 200px at 70% 100%, rgba(34, 197, 94, 0.12) 0%, transparent 60%),
-      /* 最近山（最深） */
-      radial-gradient(ellipse 400px 220px at 85% 100%, rgba(34, 197, 94, 0.15) 0%, transparent 55%);
+      /* 遠山層次（暖大地色系） */
+      radial-gradient(ellipse 1000px 100px at 5% 100%, rgba(61, 79, 47, 0.1) 0%, transparent 80%),
+      radial-gradient(ellipse 800px 120px at 15% 100%, rgba(61, 79, 47, 0.15) 0%, transparent 75%),
+      radial-gradient(ellipse 700px 160px at 35% 100%, rgba(90, 114, 71, 0.2) 0%, transparent 70%),
+      radial-gradient(ellipse 600px 180px at 55% 100%, rgba(90, 114, 71, 0.25) 0%, transparent 65%),
+      radial-gradient(ellipse 500px 200px at 70% 100%, rgba(143, 188, 107, 0.3) 0%, transparent 60%),
+      radial-gradient(ellipse 400px 220px at 85% 100%, rgba(143, 188, 107, 0.35) 0%, transparent 55%);
   }
   
-  /* 台灣島輪廓SVG - 更精緻 */
+  /* 台灣島輪廓SVG - 更溫和的存在感 */
   .taiwan-silhouette {
     position: absolute;
     top: 15%;
     right: 8%;
     width: 180px;
     height: 180px;
-    opacity: 0.3;
-    filter: drop-shadow(0 0 20px rgba(34, 197, 94, 0.2));
-    animation: float 10s ease-in-out infinite;
+    opacity: 0.15;
+    filter: drop-shadow(0 0 10px rgba(143, 188, 107, 0.2));
+    /* 移除動畫，保持靜謐 */
   }
   
-  /* 流動漸層背景 - 更細膩 */
+  /* 移除流動漸層背景 - 保持安靜 */
   .flowing-gradient {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(
-      -45deg,
-      rgba(59, 130, 246, 0.02) 0%,
-      rgba(34, 197, 94, 0.03) 20%,
-      rgba(168, 85, 247, 0.02) 40%,
-      rgba(239, 68, 68, 0.015) 60%,
-      rgba(251, 191, 36, 0.025) 80%,
-      rgba(59, 130, 246, 0.02) 100%
-    );
-    background-size: 600% 600%;
-    animation: gradientFlow 15s ease infinite;
-    z-index: 1;
+    display: none;
   }
   
   .hero-content {
@@ -337,75 +311,53 @@ import CategoryGrid from '../components/CategoryGrid.astro';
     padding: 0 2rem;
   }
   
-  /* 標題設計 - 更精緻的品牌感 */
+  /* 標題設計 - 明體 + 白色 */
   .hero-title {
     position: relative;
     font-size: 6rem;
     font-weight: 900;
     margin-bottom: 1.5rem;
-    font-family: "Noto Serif TC", 'Inter', -apple-system, system-ui, sans-serif;
-    letter-spacing: -0.02em;
+    font-family: "Noto Serif TC", "Source Han Serif TC", "PMingLiU", serif;
+    letter-spacing: 0.1em;
     line-height: 1;
+    color: white;
   }
   
   .title-text {
     position: relative;
-    background: linear-gradient(
-      135deg, 
-      #fbbf24 0%, 
-      #f59e0b 25%, 
-      #dc2626 50%, 
-      #b91c1c 75%, 
-      #7c2d12 100%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: white;
+    /* 移除漸層色，使用純白明體 */
     z-index: 2;
-    filter: drop-shadow(0 4px 8px rgba(220, 38, 38, 0.3));
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   }
   
   .title-glow {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, #fbbf24, #f59e0b, #dc2626);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    filter: blur(30px);
-    opacity: 0.2;
-    z-index: 1;
+    display: none; /* 移除發光效果 */
   }
   
-  /* 副標題 - 更有氣勢 */
+  /* 副標題 - 明體 + 白色半透明 */
   .hero-subtitle {
-    font-family: "Noto Serif TC", 'Inter', system-ui, sans-serif;
+    font-family: "Noto Serif TC", "Source Han Serif TC", "PMingLiU", serif;
     font-size: 2.8rem;
     margin-bottom: 2rem;
     font-weight: 400;
-    background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 50%, #94a3b8 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-shadow: none;
+    color: rgba(255, 255, 255, 0.9);
     letter-spacing: 0.05em;
     line-height: 1.2;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   }
   
-  /* 描述文字 - 更精緻 */
+  /* 描述文字 - 優雅簡潔 */
   .hero-description {
     font-size: 1.3rem;
     margin-bottom: 3.5rem;
-    opacity: 0.9;
     line-height: 1.8;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
     font-weight: 300;
-    color: #f1f5f9;
+    color: rgba(255, 255, 255, 0.85);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   }
   
   .hero-description br {
@@ -413,15 +365,12 @@ import CategoryGrid from '../components/CategoryGrid.astro';
   }
   
   .highlight {
-    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #dc2626 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: rgba(255, 255, 255, 0.95);
     font-weight: 500;
     letter-spacing: 0.02em;
   }
   
-  /* CTA 按鈕升級 - 更突出精緻 */
+  /* CTA 按鈕 - 自然簡潔設計 */
   .hero-cta {
     display: flex;
     justify-content: center;
@@ -434,94 +383,54 @@ import CategoryGrid from '../components/CategoryGrid.astro';
   .btn-cta {
     padding: 1.4rem 3rem;
     text-decoration: none;
-    border-radius: 16px;
-    font-weight: 700;
+    border-radius: 8px;
+    font-weight: 600;
     font-size: 1.15rem;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.3s ease;
     display: inline-flex;
     align-items: center;
     gap: 0.75rem;
-    border: 2px solid transparent;
-    position: relative;
-    overflow: hidden;
     letter-spacing: 0.02em;
-    backdrop-filter: blur(20px);
   }
   
   .btn-cta.primary {
-    background: linear-gradient(135deg, #dc2626 0%, #b91c1c 30%, #991b1b 70%, #7c2d12 100%);
+    background: rgba(143, 188, 107, 0.9);
     color: white;
-    box-shadow: 
-      0 8px 32px rgba(220, 38, 38, 0.4),
-      inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  }
-  
-  .btn-cta.primary::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-    transition: left 0.6s ease;
-  }
-  
-  .btn-cta.primary::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    border-radius: 16px;
-    padding: 2px;
-    background: linear-gradient(135deg, #dc2626, #b91c1c, #7c2d12);
-    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-    mask-composite: exclude;
-  }
-  
-  .btn-cta.primary:hover::before {
-    left: 100%;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 16px rgba(143, 188, 107, 0.3);
   }
   
   .btn-cta.primary:hover {
-    background: linear-gradient(135deg, #b91c1c 0%, #991b1b 30%, #7c2d12 70%, #5c1a1a 100%);
-    transform: translateY(-4px) scale(1.02);
-    box-shadow: 
-      0 12px 40px rgba(220, 38, 38, 0.5),
-      inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    background: rgba(143, 188, 107, 1);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(143, 188, 107, 0.4);
   }
   
   .btn-cta.secondary {
-    background: rgba(255, 255, 255, 0.08);
+    background: transparent;
     color: white;
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(20px);
-    box-shadow: 
-      0 8px 32px rgba(0, 0, 0, 0.1),
-      inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.6);
   }
   
   .btn-cta.secondary:hover {
-    background: rgba(255, 255, 255, 0.15);
-    border-color: rgba(255, 255, 255, 0.4);
-    transform: translateY(-4px) scale(1.02);
-    box-shadow: 
-      0 12px 40px rgba(255, 255, 255, 0.1),
-      inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.9);
+    transform: translateY(-2px);
   }
   
   .cta-arrow {
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.3s ease;
   }
   
   .btn-cta.primary:hover .cta-arrow {
-    transform: translateX(4px) scale(1.1);
+    transform: translateX(3px);
   }
   
   .btn-cta.secondary:hover .github-icon {
-    transform: scale(1.1) rotate(5deg);
+    transform: scale(1.05);
   }
   
-  /* 統計數字 - 更精緻設計 */
+  /* 統計數字 - 簡潔白色設計 */
   .hero-stats {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -535,56 +444,31 @@ import CategoryGrid from '../components/CategoryGrid.astro';
   
   .stat {
     text-align: center;
-    padding: 2rem 1.5rem;
-    backdrop-filter: blur(20px);
-    background: 
-      linear-gradient(145deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    position: relative;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 
-      0 8px 32px rgba(0, 0, 0, 0.1),
-      inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  }
-  
-  .stat::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    border-radius: 20px;
-    padding: 1px;
-    background: linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.02));
-    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-    mask-composite: exclude;
+    padding: 1.5rem 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
   }
   
   .stat:hover {
-    transform: translateY(-8px);
-    background: 
-      linear-gradient(145deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.04) 100%);
-    box-shadow: 
-      0 16px 48px rgba(0, 0, 0, 0.15),
-      inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    transform: translateY(-4px);
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
   }
   
   .stat-number {
     display: block;
-    font-size: 2.4rem;
-    font-weight: 900;
-    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #dc2626 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: white;
     margin-bottom: 0.5rem;
     line-height: 1;
-    filter: drop-shadow(0 2px 4px rgba(251, 191, 36, 0.2));
   }
   
   .stat-label {
     font-size: 1rem;
-    opacity: 0.9;
-    color: #e2e8f0;
+    color: rgba(255, 255, 255, 0.8);
     font-weight: 500;
     letter-spacing: 0.02em;
   }
@@ -782,51 +666,8 @@ import CategoryGrid from '../components/CategoryGrid.astro';
     transform: translateY(-2px);
   }
   
-  /* ===== ANIMATIONS ===== */
-  @keyframes gradientFlow {
-    0% { background-position: 0% 50%; }
-    25% { background-position: 100% 25%; }
-    50% { background-position: 0% 75%; }
-    75% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-  }
-  
-  @keyframes float {
-    0%, 100% { 
-      transform: translateY(0) rotate(0deg); 
-      opacity: 0.3;
-    }
-    25% { 
-      transform: translateY(-15px) rotate(2deg); 
-      opacity: 0.4;
-    }
-    50% { 
-      transform: translateY(-8px) rotate(-1deg); 
-      opacity: 0.35;
-    }
-    75% { 
-      transform: translateY(-20px) rotate(1deg); 
-      opacity: 0.3;
-    }
-  }
-  
-  @keyframes starsMove {
-    0% { transform: translateX(0) translateY(0); }
-    100% { transform: translateX(-200px) translateY(-100px); }
-  }
-  
-  @keyframes titleGlow {
-    0%, 100% { 
-      filter: drop-shadow(0 4px 8px rgba(220, 38, 38, 0.3));
-    }
-    50% { 
-      filter: drop-shadow(0 6px 12px rgba(220, 38, 38, 0.5));
-    }
-  }
-  
-  .title-text {
-    animation: titleGlow 4s ease-in-out infinite;
-  }
+  /* ===== ANIMATIONS - 移除科技感動畫，保持自然靜謐 ===== */
+  /* 所有動畫已移除，符合自然系設計理念 */
   
   /* ===== RESPONSIVE ===== */
   @media (max-width: 1024px) {
