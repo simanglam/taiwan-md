@@ -1,12 +1,12 @@
 {
-  "totalArticles": 795,
+  "totalArticles": 808,
   "totalCategories": 27,
-  "estimatedContributors": 53,
-  "totalTags": 1949,
+  "estimatedContributors": 54,
+  "totalTags": 2002,
   "categories": [
     {
       "name": "en",
-      "count": 377
+      "count": 389
     },
     {
       "name": "History",
@@ -18,7 +18,7 @@
     },
     {
       "name": "Society",
-      "count": 20
+      "count": 21
     },
     {
       "name": "Economy",
@@ -120,7 +120,7 @@
     },
     {
       "name": "Economy",
-      "count": 34
+      "count": 38
     },
     {
       "name": "企業",
@@ -132,7 +132,7 @@
     },
     {
       "name": "people",
-      "count": 16
+      "count": 17
     },
     {
       "name": "半導體",
@@ -196,8 +196,8 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 795,
+    "zh-TW": 808,
     "en": 0
   },
-  "lastUpdated": "2026-03-22T06:37:25.834Z"
+  "lastUpdated": "2026-03-22T09:58:00.481Z"
 }

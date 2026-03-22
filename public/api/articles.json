@@ -1133,6 +1133,25 @@
     "path": "Food/台灣冰品文化.md"
   },
   {
+    "title": "台灣同婚與性別平權",
+    "description": "從戒嚴期的監獄囚犯到亞洲第一部同婚法，一個男人的30年奮鬥如何改寫島嶼的愛情定義",
+    "category": "Society",
+    "tags": [
+      "同婚",
+      "性別平權",
+      "人權",
+      "司法",
+      "亞洲第一",
+      "祁家威",
+      "LGBTQ+"
+    ],
+    "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E5%90%8C%E5%A9%9A%E8%88%87%E6%80%A7%E5%88%A5%E5%B9%B3%E6%AC%8A",
+    "readingTime": 17,
+    "featured": true,
+    "date": "2026-03-22",
+    "path": "Society/台灣同婚與性別平權.md"
+  },
+  {
     "title": "台灣回收與資源循環文化",
     "description": "從垃圾島到回收典範的綠色革命",
     "category": "Lifestyle",
@@ -4740,7 +4759,7 @@
   },
   {
     "title": "高俊明",
-    "description": "台灣基督長老教會牧師，戒嚴時期人權鬥士與良心犯",
+    "description": "一個從未見過面的陌生人，讓牧師賭上生命與教會——美麗島事件背後的信仰抉擇",
     "category": "People",
     "tags": [
       "人物",
@@ -4748,12 +4767,14 @@
       "人權運動",
       "戒嚴時期",
       "良心犯",
-      "基督長老教會"
+      "基督長老教會",
+      "美麗島事件",
+      "施明德"
     ],
     "url": "https://taiwan.md/People/%E9%AB%98%E4%BF%8A%E6%98%8E",
-    "readingTime": 12,
+    "readingTime": 14,
     "featured": false,
-    "date": "2026-03-19",
+    "date": "2026-03-22",
     "path": "People/高俊明.md"
   },
   {
@@ -5205,18 +5226,22 @@
   },
   {
     "title": "陳偉殷",
-    "description": "台灣旅美棒球投手，MLB中的台灣之光",
+    "description": "簽下25億台幣史上最高合約，但只拿到47%的左投手",
     "category": "People",
     "tags": [
       "人物",
       "棒球",
       "運動",
-      "職業運動員"
+      "職業運動員",
+      "大聯盟",
+      "MLB",
+      "NPB",
+      "日職"
     ],
     "url": "https://taiwan.md/People/%E9%99%B3%E5%81%89%E6%AE%B7",
-    "readingTime": 7,
+    "readingTime": 10,
     "featured": false,
-    "date": "2026-03-19",
+    "date": "2026-03-22",
     "path": "People/陳偉殷.md"
   },
   {
@@ -6947,6 +6972,23 @@
     "path": "en/People/chien-ming-wang-mlb-sinker-ace.md"
   },
   {
+    "title": "China Steel: The Iron-Headed Minister and the Steel Legend of Ten Major Constructions",
+    "description": "From Zhao Yao-dong's clever negotiations for technology in Europe and America to the first plume of white smoke rising from Kaohsiung Xiaogang, China Steel spent 50 years building Taiwan's heavy industry backbone as the most successful jewel of the Ten Major Constructions",
+    "category": "en",
+    "tags": [
+      "Economy",
+      "Companies",
+      "Steel Industry",
+      "Ten Major Constructions",
+      "Heavy Industry"
+    ],
+    "url": "https://taiwan.md/en/Economy/taiwan-companies-china-steel",
+    "readingTime": 34,
+    "featured": false,
+    "date": "2026-03-20",
+    "path": "en/Economy/taiwan-companies-china-steel.md"
+  },
+  {
     "title": "Cho-yun Hsu: Bridging East and West as a Master Historian",
     "description": "Master historian, author of The Course of Chinese History, Professor Emeritus at University of Pittsburgh",
     "category": "en",
@@ -8227,6 +8269,17 @@
     "path": "en/People/kevin-lin-ultramarathon-desert-pioneer.md"
   },
   {
+    "title": "Kinmen-Matsu Guest House Contemporary Art Museum",
+    "description": "A Cold War military waystation that witnessed countless farewells and reunions, slept for twenty years, then was awakened by a father-daughter team to become Lonely Planet's top-rated art museum in Kaohsiung.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Art/kinmen-matsu-guest-house-contemporary-art-museum",
+    "readingTime": 46,
+    "featured": false,
+    "date": null,
+    "path": "en/Art/kinmen-matsu-guest-house-contemporary-art-museum.md"
+  },
+  {
     "title": "KMT Government Relocation and Post-War Reconstruction",
     "description": "The historical background, process, and impact of the Kuomintang government's 1949 relocation to Taiwan, and post-war political, economic, and social reconstruction",
     "category": "en",
@@ -8503,6 +8556,24 @@
     "path": "en/Food/local-taiwanese-street-food-map.md"
   },
   {
+    "title": "Lu Guan-wei: From Medical School to Education Revolutionary",
+    "description": "Founder of Taiwan's Khan Academy - how a doctor gave up medicine to democratize education",
+    "category": "en",
+    "tags": [
+      "Education",
+      "Junyi Academy",
+      "Online learning",
+      "Educational technology",
+      "Social enterprise",
+      "Rural education"
+    ],
+    "url": "https://taiwan.md/en/People/lu-guan-wei-junyiacademy-founder",
+    "readingTime": 30,
+    "featured": false,
+    "date": "2026-03-20",
+    "path": "en/People/lu-guan-wei-junyiacademy-founder.md"
+  },
+  {
     "title": "Lu Yen-hsun (盧彥勳)",
     "description": "Taiwan's tennis ace who reached Wimbledon quarterfinals in 2010, representing Taiwan in four Olympic Games and becoming the nation's most accomplished male tennis player",
     "category": "en",
@@ -8591,6 +8662,24 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "en/People/mark-liu.md"
+  },
+  {
+    "title": "Marriage Equality and Gender Rights in Taiwan",
+    "description": "From a political prisoner under martial law to Asia's first marriage equality law — how one man's 30-year fight redefined love in Taiwan",
+    "category": "en",
+    "tags": [
+      "marriage equality",
+      "LGBTQ+",
+      "human rights",
+      "constitutional law",
+      "Asia first",
+      "Chi Chia-wei"
+    ],
+    "url": "https://taiwan.md/en/Society/%E5%8F%B0%E7%81%A3%E5%90%8C%E5%A9%9A%E8%88%87%E6%80%A7%E5%88%A5%E5%B9%B3%E6%AC%8A",
+    "readingTime": 56,
+    "featured": true,
+    "date": "2026-03-22",
+    "path": "en/Society/台灣同婚與性別平權.md"
   },
   {
     "title": "Martial Law Era",
@@ -9539,6 +9628,41 @@
     "path": "en/Food/taiwan-breakfast-culture.md"
   },
   {
+    "title": "Taiwan Cement: The Green Transformation of Taiwan's First Listed Company",
+    "description": "Founded in 1946, stock code 1101 was born for the Taiwan Stock Exchange. After 76 years under three generations of the Koo family, Taiwan Cement transformed from concrete foundation to green revolution, witnessing Taiwan's construction miracle while pioneering carbon-neutral innovation",
+    "category": "en",
+    "tags": [
+      "Economy",
+      "Enterprises",
+      "Cement Industry",
+      "Construction Materials",
+      "Privatization",
+      "Green Transformation"
+    ],
+    "url": "https://taiwan.md/en/Economy/taiwan-cement-taipower-green-transformation",
+    "readingTime": 44,
+    "featured": false,
+    "date": "2026-03-20",
+    "path": "en/Economy/taiwan-cement-taipower-green-transformation.md"
+  },
+  {
+    "title": "Taiwan Coastal Landforms and Marine Landscapes",
+    "description": "The Yehliu Queen\\'s Head is thinning at 0.2cm per year and will eventually collapse—this is both the fate and beauty of Taiwan\\'s coastal landforms",
+    "category": "en",
+    "tags": [
+      "coastal landforms",
+      "geology",
+      "Qingshui Cliffs",
+      "Yehliu",
+      "plate tectonics"
+    ],
+    "url": "https://taiwan.md/en/Geography/taiwan-coastal-landforms-marine-landscapes",
+    "readingTime": 31,
+    "featured": true,
+    "date": "2026-03-19",
+    "path": "en/Geography/taiwan-coastal-landforms-marine-landscapes.md"
+  },
+  {
     "title": "Taiwan Coffee Culture",
     "description": "Third-highest density of independent coffee shops globally - island coffee academia from Alishan beans to coffee shop offices",
     "category": "en",
@@ -9572,6 +9696,23 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "en/Culture/taiwan-comics-and-animation-culture.md"
+  },
+  {
+    "title": "Taiwan Companies: Chunghwa Telecom",
+    "description": "Taiwan's largest telecommunications operator, transforming from state monopoly to digital transformation leader",
+    "category": "en",
+    "tags": [
+      "Economy",
+      "Companies",
+      "Telecommunications",
+      "Digital Transformation",
+      "State Enterprise Privatization"
+    ],
+    "url": "https://taiwan.md/en/Economy/taiwan-companies-chunghwa-telecom",
+    "readingTime": 46,
+    "featured": false,
+    "date": "2026-03-20",
+    "path": "en/Economy/taiwan-companies-chunghwa-telecom.md"
   },
   {
     "title": "Taiwan Companies: Fubon Financial Holdings",
@@ -10173,12 +10314,21 @@
     "path": "en/Geography/taiwan-transportation-network.md"
   },
   {
-    "title": "Taiwan, the Fruit Kingdom",
-    "description": "From Irwin mangoes to wax apples, how Taiwan’s microclimates and farming ingenuity turned a small island into a world-class fruit museum",
+    "title": "Taiwan: The Fruit Kingdom",
+    "description": "From mangoes and lychees to sugar apples and wax apples, the sweet story of tropical fruit diversity and agricultural innovation",
     "category": "en",
-    "tags": [],
+    "tags": [
+      "fruit",
+      "mango",
+      "lychee",
+      "sugar apple",
+      "wax apple",
+      "agricultural technology",
+      "Yujing",
+      "fruit exports"
+    ],
     "url": "https://taiwan.md/en/Food/taiwan-fruit-kingdom",
-    "readingTime": 31,
+    "readingTime": 66,
     "featured": false,
     "date": "2026-03-18",
     "path": "en/Food/taiwan-fruit-kingdom.md"
@@ -10722,6 +10872,25 @@
     "featured": false,
     "date": "2026-03-18",
     "path": "en/Nature/taiwan-marine-ecology.md"
+  },
+  {
+    "title": "Taiwan's Marriage Revolution: How One Man's 33-Year Fight Rewrote Love's Definition",
+    "description": "From martial law prison to Asia's first same-sex marriage law—the extraordinary story of Taiwan becoming Asia's rainbow capital",
+    "category": "en",
+    "tags": [
+      "Same-sex marriage",
+      "Gender equality",
+      "Human rights",
+      "Judicial",
+      "Asia first",
+      "Chi Chia-wei",
+      "LGBTQ+"
+    ],
+    "url": "https://taiwan.md/en/Society/taiwan-marriage-equality-lgbtq-rights",
+    "readingTime": 56,
+    "featured": true,
+    "date": "2026-03-22",
+    "path": "en/Society/taiwan-marriage-equality-lgbtq-rights.md"
   },
   {
     "title": "Taiwan’s Music Festival Culture: From Spring Scream to a Youth Movement",
@@ -11502,6 +11671,23 @@
     "path": "en/Food/taiwanese-street-food.md"
   },
   {
+    "title": "Taiwanese Tea Ceremony and Lifestyle Aesthetics",
+    "description": "When Wistaria House opened in 1981, opposition figures and intellectuals gathered for tea. This wasn't just a teahouse—it was a secret base for the democracy movement",
+    "category": "en",
+    "tags": [
+      "tea culture",
+      "tea ceremony",
+      "lifestyle aesthetics",
+      "Wistaria House",
+      "teahouses"
+    ],
+    "url": "https://taiwan.md/en/Culture/taiwanese-tea-ceremony-and-lifestyle-aesthetics",
+    "readingTime": 46,
+    "featured": true,
+    "date": "2026-03-18",
+    "path": "en/Culture/taiwanese-tea-ceremony-and-lifestyle-aesthetics.md"
+  },
+  {
     "title": "Taiwanese Theater and Performing Arts",
     "description": "",
     "category": "en",
@@ -11980,6 +12166,24 @@
     "path": "en/People/tsai-ming-liang.md"
   },
   {
+    "title": "TSMC: The World's Most Important Company You've Never Heard Of",
+    "description": "How a small Taiwanese company became the invisible foundation of global digital civilization",
+    "category": "en",
+    "tags": [
+      "Economy",
+      "Business",
+      "Semiconductors",
+      "Technology",
+      "Manufacturing",
+      "TSMC"
+    ],
+    "url": "https://taiwan.md/en/Economy/tsmc-taiwan-semiconductor",
+    "readingTime": 39,
+    "featured": false,
+    "date": "2026-03-20",
+    "path": "en/Economy/tsmc-taiwan-semiconductor.md"
+  },
+  {
     "title": "Tung Tzu-hsien (童子賢)",
     "description": "Chairman and CEO of Pegatron Corporation, a tech industry leader who bridges technology and humanities, and key supporter of Taiwan's Eslite Bookstore",
     "category": "en",
@@ -12050,6 +12254,24 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "en/People/wei-te-sheng-taiwanese-epic-filmmaker.md"
+  },
+  {
+    "title": "Wei-Yin Chen",
+    "description": "The left-hander who signed Taiwan's highest sports contract but only received 47% of the money",
+    "category": "en",
+    "tags": [
+      "people",
+      "baseball",
+      "sports",
+      "professional athlete",
+      "MLB",
+      "NPB"
+    ],
+    "url": "https://taiwan.md/en/People/%E9%99%B3%E5%81%89%E6%AE%B7",
+    "readingTime": 29,
+    "featured": false,
+    "date": "2026-03-22",
+    "path": "en/People/陳偉殷.md"
   },
   {
     "title": "Why Taiwan Needs Its Own Knowledge Base",
@@ -12277,6 +12499,24 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "en/People/yeh-kuo-yi-electronics-manufacturing-pioneer.md"
+  },
+  {
+    "title": "Yeh Ping-cheng (葉丙成)",
+    "description": "NTU Electrical Engineering professor and flipped learning pioneer who developed PaGamO gamified learning platform, bringing Taiwan educational innovation to the international stage",
+    "category": "en",
+    "tags": [
+      "education",
+      "flipped learning",
+      "PaGamO",
+      "gamified learning",
+      "NTU",
+      "educational innovation"
+    ],
+    "url": "https://taiwan.md/en/People/yeh-ping-cheng-education-innovator",
+    "readingTime": 23,
+    "featured": false,
+    "date": "2026-03-20",
+    "path": "en/People/yeh-ping-cheng-education-innovator.md"
   },
   {
     "title": "Zheng Nanrong",
